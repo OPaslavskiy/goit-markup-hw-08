@@ -1,8 +1,11 @@
 .client__list {
     display: flex;
     flex-wrap: wrap;
-
     gap: 30px;
+}
+
+.client__item {
+    width: calc((100% - 30px) / 2);
 }
 
 .client__card {
@@ -31,8 +34,4 @@
 .client__icon {
     fill: var(--clien-icon);
     transition: fill 250ms var(--time-cube);
-}
-
-.client__item {
-    width: calc((100% - 60px) / 2);
 }

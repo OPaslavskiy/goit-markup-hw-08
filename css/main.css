@@ -62,8 +62,6 @@ img {
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .conteiner {
@@ -180,7 +178,7 @@ img {
 }
 
 .hero {
-  width: 480px;
+  max-width: 480px;
   min-height: 400px;
   text-align: center;
   padding: 118px 0;
@@ -194,6 +192,7 @@ img {
 }
 
 .hero__title {
+  text-align: center;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
@@ -201,13 +200,9 @@ img {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 30px;
-  width: 360px;
+  max-width: 360px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.benefits_list {
-  max-width: 100%;
 }
 
 .benefits__icon {
@@ -290,6 +285,10 @@ img {
   gap: 30px;
 }
 
+.client__item {
+  width: calc((100% - 30px) / 2);
+}
+
 .client__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,10 +318,6 @@ img {
   fill: var(--clien-icon);
   -webkit-transition: fill 250ms var(--time-cube);
   transition: fill 250ms var(--time-cube);
-}
-
-.client__item {
-  width: calc((100% - 60px) / 2);
 }
 
 .filter__button {
