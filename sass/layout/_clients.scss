@@ -1,0 +1,38 @@
+.client__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+}
+
+.client__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--clien-icon);
+    border-radius: 4px;
+
+    height: 92px;
+    transition: border-color 250ms var(--time-cube);
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+    }
+
+    &:hover .client__icon,
+    &:focus .client__icon {
+        fill: var(--accent-color);
+    }
+
+}
+
+.client__icon {
+    fill: var(--clien-icon);
+    transition: fill 250ms var(--time-cube);
+}
+
+.client__item {
+    width: calc((100% - 60px) / 2);
+}

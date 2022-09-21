@@ -1,0 +1,53 @@
+// .hero {
+//     text-align: center;
+//     padding: 200px 0;
+//     max-width: 1600px;
+//     min-height: 600px;
+//     background-color: #2f303a;
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//         url(../images/background.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     margin: 0 auto;
+// }
+
+// .hero__title {
+//     font-weight: 900;
+//     font-size: 44px;
+//     line-height: 1.36;
+//     letter-spacing: 0.06em;
+//     text-transform: uppercase;
+//     color: #fff;
+//     margin-bottom: 30px;
+//     width: 696px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+.hero {
+    width: 480px;
+    min-height: 400px;
+    text-align: center;
+    padding: 118px 0;
+    background-color: #2f303a;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hero__title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
