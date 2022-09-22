@@ -65,11 +65,25 @@ img {
 }
 
 .conteiner {
-  max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+  .conteiner {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    width: 1200px;
+  }
 }
 
 .logo {
@@ -543,6 +557,8 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+  padding: 93px 15px;
+  overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 99;
   visibility: visible;
@@ -558,22 +574,32 @@ img {
 }
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 94%;
-  min-height: 609px;
+  position: relative;
   background-color: #fff;
   border-radius: 4px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  -webkit-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
   opacity: 1;
   -webkit-transition: -webkit-transform 250ms var(--time-cube);
   transition: -webkit-transform 250ms var(--time-cube);
   transition: transform 250ms var(--time-cube);
   transition: transform 250ms var(--time-cube), -webkit-transform 250ms var(--time-cube);
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 450px;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    -webkit-transition: -webkit-transform 250ms var(--time-cube);
+    transition: -webkit-transform 250ms var(--time-cube);
+    transition: transform 250ms var(--time-cube);
+    transition: transform 250ms var(--time-cube), -webkit-transform 250ms var(--time-cube);
+  }
 }
 
 .backdrop.is-hidden .modal {
