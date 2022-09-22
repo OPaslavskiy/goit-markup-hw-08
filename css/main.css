@@ -195,8 +195,6 @@ img {
 }
 
 .hero {
-  max-width: 480px;
-  min-height: 400px;
   text-align: center;
   padding: 118px 0;
   background-color: #2f303a;
@@ -249,16 +247,25 @@ img {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .benefits__item {
+    width: calc((100% - 30px) / 2);
+  }
+  .benefits__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 .occupation {
   display: none;
 }
 
 .team {
   background-color: #f5f4fa;
-}
-
-.team__list {
-  width: 100%;
 }
 
 .team__item {
@@ -293,6 +300,20 @@ img {
   display: flex;
 }
 
+@media screen and (min-width: 768px) {
+  .team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+  .team__item {
+    width: calc((100% - 30px) / 2);
+    margin-bottom: 0px;
+  }
+}
 .client__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -304,6 +325,11 @@ img {
 
 .client__item {
   width: calc((100% - 30px) / 2);
+}
+@media screen and (min-width: 768px) {
+  .client__item {
+    width: calc((100% - 60px) / 3);
+  }
 }
 
 .client__card {
@@ -766,7 +792,7 @@ img {
 
 .conset__checkbox {
   display: inline-block;
-  width: 16px;
+  min-width: 16px;
   height: 15px;
   background-image: url(../images/checkbox-border.svg);
   -webkit-transition: background-image 250ms var(--time-cube);
