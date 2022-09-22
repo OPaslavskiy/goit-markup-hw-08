@@ -195,6 +195,7 @@ img {
 }
 
 .hero {
+  height: 400px;
   text-align: center;
   padding: 118px 0;
   background-color: #2f303a;
