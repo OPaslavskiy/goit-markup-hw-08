@@ -96,3 +96,16 @@
     transition: transform 250ms var(--time-cube);
     visibility: hidden;
 }
+
+@media screen and (min-width: 768px) {
+    .portfolio__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .portfolio__item {
+        width: calc((100% - 30px) / 2);
+    }
+
+}

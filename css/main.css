@@ -403,6 +403,7 @@ img {
 }
 
 .sign-up__imput {
+  max-width: 450px;
   width: 100%;
   height: 50px;
   padding: 15px 16px;
@@ -453,6 +454,18 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .sign-up__form {
+    text-align: center;
+  }
+}
 .filter__button {
   font-family: inherit;
   font-weight: 500;
@@ -496,6 +509,16 @@ img {
   max-width: 326px;
   margin-bottom: 40px;
   gap: 8px;
+}
+@media screen and (min-width: 768px) {
+  .filter {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    max-width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .portfolio__titel {
@@ -577,6 +600,19 @@ img {
   visibility: hidden;
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+  .portfolio__item {
+    width: calc((100% - 30px) / 2);
+  }
+}
 .backdrop {
   position: fixed;
   top: 0;
