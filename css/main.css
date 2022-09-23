@@ -225,6 +225,31 @@ img {
           align-items: center;
 }
 
+@media screen and (max-width: 767px) {
+  .navigation {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
+  .open-mobile-menu-btn__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .open-mobile-menu-btn {
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  .header__conteiner {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 .hero {
   height: 400px;
   text-align: center;
