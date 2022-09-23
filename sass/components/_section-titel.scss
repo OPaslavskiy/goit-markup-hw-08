@@ -4,4 +4,10 @@
     text-align: center;
     color: var(--titel-color);
     margin-bottom: 30px;
+
+    @media screen and(min-width:1200px) {
+        font-size: 36px;
+
+        margin-bottom: 50px;
+    }
 }

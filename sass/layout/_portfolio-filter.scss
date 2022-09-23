@@ -36,7 +36,6 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 326px;
-    // justify-content: center;
     margin-bottom: 40px;
     gap: 8px;
 
@@ -44,5 +43,10 @@
         flex-wrap: nowrap;
         max-width: 100%;
         justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
     }
 }

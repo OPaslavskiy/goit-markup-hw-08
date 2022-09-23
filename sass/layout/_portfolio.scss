@@ -47,6 +47,7 @@
         transform: translateY(0);
         visibility: visible;
     }
+
 }
 
 .portfolio__card {
@@ -108,4 +109,19 @@
         width: calc((100% - 30px) / 2);
     }
 
+    .portfolio__card {
+        flex-grow: 1;
+    }
+
+    .portfolio__link {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio__item {
+        width: calc((100% - 60px) / 3);
+    }
 }

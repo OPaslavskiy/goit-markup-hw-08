@@ -1,13 +1,13 @@
-// .header {
-//     border-bottom-width: 1px;
-//     border-bottom-style: solid;
-//     border-bottom-color: #ececec;
+.header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ececec;
 
-//     & .conteiner {
-//         display: flex;
-//         align-items: center;
-//     }
-// }
+    & .conteiner {
+        display: flex;
+        align-items: center;
+    }
+}
 
 // .navigation,
 // .header__nav {
