@@ -43,7 +43,6 @@
     &:focus {
         fill: var(--accent-color);
     }
-
 }
 
 .mobile-menu.is-open {
@@ -52,7 +51,6 @@
     pointer-events: auto;
 
 }
-
 
 .mobile-menu-navigation {
     margin-top: 48px;
@@ -112,7 +110,6 @@
     &:focus {
         color: var(--accent-color);
     }
-
 }
 
 .mobile-menu-contact__item:not(:last-child) {
