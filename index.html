@@ -170,21 +170,41 @@
         <ul class="occupation__list">
           <li class="occupation__item">
             <div class="occupation__titel">
-              <img src="./images/box-1.jpg" alt="Фото екрану планшета та монітора на яких проглядається HTML код"
-                width="370" height="294" />
+              <picture>
+                <source srcset="./images/services/desktop-app.webp 1x, ./images/services/desktop-app@2x.webp 2x"
+                  media="(min-width: 1200px)" type="image/webp" />
+                <source srcset="./images/services/desktop-app.jpg 1x, ./images/services/desktop-app@2x.jpg 2x"
+                  media="(min-width: 1200px)" />
+                <img src="./images/services/desktop-app.jpg"
+                  alt="Фото екрану планшета та монітора, на яких проглядається HTML код" class="occupation__img" />
+              </picture>
               <p class="occupation__text">Десктопні додатки</p>
             </div>
           </li>
           <li class="occupation__item">
             <div class="occupation__titel">
-              <img src="./images/box-2.jpg" alt="Фото моніторів де показано пкриклад адаптації веб сторінки на смартфон"
-                width="370" height="294" />
+              <picture>
+                <source srcset="./images/services/mobile-app.webp 1x, ./images/services/mobile-app@2x.webp 2x"
+                  media="(min-width: 1200px)" type="image/webp" />
+                <source srcset="./images/services/mobile-app.jpg 1x, ./images/services/mobile-app@2x.jpg 2x"
+                  media="(min-width: 1200px)" />
+                <img src="./images/services/mobile-app.jpg"
+                  alt="Фото моніторів де показано пкриклад адаптації веб сторінки на смартфон"
+                  class="occupation__img" />
+              </picture>
               <p class="occupation__text">Мобільні додатки</p>
             </div>
           </li>
           <li class="occupation__item">
             <div class="occupation__titel">
-              <img src="./images/box-3.jpg" alt="Плітра кольорів на екрані планшету" width="370" height="294" />
+              <picture>
+                <source srcset="./images/services/desing.webp 1x, ./images/services/desing@2x.webp 2x"
+                  media="(min-width: 1200px)" type="image/webp" />
+                <source srcset="./images/services/desing.jpg 1x, ./images/services/desing@2x.jpg 2x"
+                  media="(min-width: 1200px)" />
+                <img src="./images/services/desing.jpg" alt="Плітра кольорів на екрані планшету"
+                  class="occupation__img" />
+              </picture>
               <p class="occupation__text">Дизайнерські рішення</p>
             </div>
           </li>
@@ -198,7 +218,27 @@
         <h2 class="section__titel">Наша команда</h2>
         <ul class="team__list">
           <li class="team__item">
-            <img src="./images/tcard-1.jpg" alt="На фото Ігор Дем'яненко (Product Designer)" width="450" height="460" />
+            <picture>
+              <source
+                srcset="./images/team/desktop/team-1-desktop.webp 1x, ./images/team/desktop/team-1-desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source
+                srcset="../images/team/desktop/team-1-desktop.jpg 1x, ./images/team/desktop/team-1-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="./images/team/tablet/team-1-tablet.webp 1x, ./images/team/tablet/team-1-tablet@2x.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="../images/team/tablet/team-1-tablet.jpg 1x, ./images/team/tablet/team-1-tablet@2x.jpg 2x"
+                media="(min-width: 768px)" />
+
+              <source srcset="./images/team/mobile/team-1-mobile.webp 1x, ./images/team/mobile/team-1-mobile@2x.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/mobile/team-1-mobile.jpg 1x, ./images/team/mobile/team-1-mobile@2x.jpg 2x"
+                media="(max-width: 767px)" />
+
+              <img src="./images/team/mobile/team-1-mobile.jpg" alt="На фото Ігор Дем'яненко (Product Designer)"
+                class="team__img" />
+            </picture>
             <h3 class="team__ppl">Ігор Дем'яненко</h3>
             <p class="team__position">Product Designer</p>
             <div class="socialmedia">
@@ -231,7 +271,28 @@
             </div>
           </li>
           <li class="team__item">
-            <img src="./images/tcard-2.jpg" alt="На фото Ольга Рєпіна (Frontend Developer)" width="450" height="460" />
+            <picture>
+              <source
+                srcset="./images/team/desktop/team-2-desktop.webp 1x, ./images/team/desktop/team-2-desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source
+                srcset="../images/team/desktop/team-2-desktop.jpg 1x, ./images/team/desktop/team-2-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="./images/team/tablet/team-2-tablet.webp 1x, ./images/team/tablet/team-2-tablet@2x.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="../images/team/tablet/team-2-tablet.jpg 1x, ./images/team/tablet/team-2-tablet@2x.jpg 2x"
+                media="(min-width: 768px)" />
+
+              <source srcset="./images/team/mobile/team-2-mobile.webp 1x, ./images/team/mobile/team-2-mobile@2x.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/mobile/team-2-mobile.jpg 1x, ./images/team/mobile/team-2-mobile@2x.jpg 2x"
+                media="(max-width: 767px)" />
+
+              <img src="./images/team/mobile/team-2-mobile.jpg" alt="На фото Ольга Рєпіна (Frontend Developer)"
+                class="team__img" />
+
+            </picture>
             <h3 class="team__ppl">Ольга Рєпіна</h3>
             <p class="team__position">Frontend Developer</p>
             <div class="socialmedia">
@@ -264,7 +325,27 @@
             </div>
           </li>
           <li class="team__item">
-            <img src="./images/tcard-3.jpg" alt="На фото Микола Тарасов (Marketing)" width="450" height="460" />
+            <picture>
+              <source
+                srcset="./images/team/desktop/team-2-desktop.webp 1x, ./images/team/desktop/team-2-desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source
+                srcset="../images/team/desktop/team-2-desktop.jpg 1x, ./images/team/desktop/team-2-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="./images/team/tablet/team-2-tablet.webp 1x, ./images/team/tablet/team-2-tablet@2x.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="../images/team/tablet/team-2-tablet.jpg 1x, ./images/team/tablet/team-2-tablet@2x.jpg 2x"
+                media="(min-width: 768px)" />
+
+              <source srcset="./images/team/mobile/team-2-mobile.webp 1x, ./images/team/mobile/team-2-mobile@2x.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/mobile/team-2-mobile.jpg 1x, ./images/team/mobile/team-2-mobile@2x.jpg 2x"
+                media="(max-width: 767px)" />
+
+              <img src="./images/team/mobile/team-2-mobile.jpg" alt="На фото Микола Тарасов (Marketing)"
+                class="team__img" />
+            </picture>
             <h3 class="team__ppl">Микола Тарасов</h3>
             <p class="team__position">Marketing</p>
             <div class="socialmedia">
@@ -297,7 +378,7 @@
             </div>
           </li>
           <li class="team__item">
-            <img src="./images/tcard-4.jpg" alt="На фото Михайло Єрмаков (Ul Designer)" width="450" height="460" />
+            <img src="./images/tcard-4.jpg" alt="На фото Михайло Єрмаков (Ul Designer)" class="team__img" />
             <h3 class="team__ppl">Михайло Єрмаков</h3>
             <p class="team__position">UI Designer</p>
             <div class="socialmedia">

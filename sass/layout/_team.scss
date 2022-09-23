@@ -29,6 +29,21 @@
     margin-bottom: 16px;
 }
 
+.team__img {
+    width: 450px;
+    height: 460px;
+
+    @media screen and(min-width:768px) {
+        width: 354px;
+        height: 374px;
+    }
+
+    @media screen and(min-width:1200px) {
+        width: 270px;
+        height: 260px;
+    }
+}
+
 .socialmedia {
     display: flex;
 }

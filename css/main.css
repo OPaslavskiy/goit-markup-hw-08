@@ -677,6 +677,11 @@ img {
   position: relative;
 }
 
+.occupation__img {
+  width: 370px;
+  height: 294px;
+}
+
 .occupation__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -726,6 +731,23 @@ img {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 16px;
+}
+
+.team__img {
+  width: 450px;
+  height: 460px;
+}
+@media screen and (min-width: 768px) {
+  .team__img {
+    width: 354px;
+    height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__img {
+    width: 270px;
+    height: 260px;
+  }
 }
 
 .socialmedia {
