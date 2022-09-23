@@ -735,7 +735,7 @@ img {
 
 .team__img {
   width: 450px;
-  height: 460px;
+  max-height: 460px;
 }
 @media screen and (min-width: 768px) {
   .team__img {
@@ -1097,7 +1097,7 @@ img {
 
 .portfolio__img {
   width: 450px;
-  height: 294px;
+  max-height: 294px;
 }
 @media screen and (min-width: 768px) {
   .portfolio__img {
