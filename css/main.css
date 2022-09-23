@@ -1090,9 +1090,24 @@ img {
   margin-bottom: 30px;
 }
 
-.portfolio__img {
+.portfolio__image {
   position: relative;
   overflow: hidden;
+}
+
+.portfolio__img {
+  width: 450px;
+  height: 294px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio__img {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__img {
+    width: 370px;
+  }
 }
 
 .portfolio__description {
