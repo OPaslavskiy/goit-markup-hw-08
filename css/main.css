@@ -216,6 +216,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
+@media screen and (max-width: 350px) {
+  .mobile-menu-contact__tel {
+    font-size: 25px;
+  }
+}
 
 .mobile-menu-contact__mail {
   font-weight: 500;
@@ -238,12 +243,13 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-  width: 100%;
   margin-left: 25px;
   margin-top: 64px;
   margin-bottom: 48px;
@@ -588,6 +594,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
+    max-width: 1600px;
     height: 600px;
     padding: 200px 0;
   }
@@ -865,10 +872,6 @@ img {
   color: var(--accent-color);
 }
 
-.join {
-  margin-bottom: 60px;
-}
-
 .sign-up__imput {
   max-width: 450px;
   width: 100%;
@@ -921,6 +924,10 @@ img {
   margin: 0 auto;
 }
 
+.footer__div {
+  margin-bottom: 60px;
+}
+
 @media screen and (min-width: 768px) {
   .footer__div {
     display: -webkit-box;
@@ -928,9 +935,13 @@ img {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    margin-bottom: 60px;
   }
   .sign-up__form {
     text-align: center;
+  }
+  .footer__address {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1200px) {

@@ -96,6 +96,11 @@
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+
+    @media screen and(max-width:350px) {
+        font-size: 25px;
+        ;
+    }
 }
 
 .mobile-menu-contact__mail {
@@ -119,12 +124,12 @@
 
 .mobile-menu-social-media {
     display: flex;
+    flex-wrap: wrap;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: var(--accent-color);
-    width: 100%;
     margin-left: 25px;
     margin-top: 64px;
     margin-bottom: 48px;
